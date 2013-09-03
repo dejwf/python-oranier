@@ -36,19 +36,19 @@ class easy5DB:
         self.charset = "utf8"
         self.DBtype = DBtype  
         if DBtype == "KT":
-            self.host = "sql57.your-server.de"
-            self.user = "netmark2011_r"
-            self.pwd = "K0chbuch_r"
+            self.host = "sql.your-server.de"
+            self.user = "user"
+            self.pwd = "pwd"
             self.db = "oraniekt"
         if DBtype == "HT":
-            self.host = "sql57.your-server.de"
-            self.user = 'netmark2010_r'
-            self.pwd = "N0_chance_Man"
+            self.host = "sql.your-server.de"
+            self.user = 'user'
+            self.pwd = "pwd"
             self.db = 'oranierht'
         if DBtype == "stammdaten":
-            self.host = "sql55.your-server.de"
-            self.user = "oranie_13_r"
-            self.pwd = "R_fuer_0R"
+            self.host = "sql.your-server.de"
+            self.user = "user"
+            self.pwd = "pwd"
             self.db = "stammdaten_oranier"
     
     def read(self,command): #command example: "SELECT * FROM dunstabzug_text_de"
