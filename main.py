@@ -89,7 +89,7 @@ if True:
     print time.now(),"Logging in...",
     HTTPHOST="http://netmark5.web11.hucke.net"
     c = Client(HTTPHOST+"/index.php/api/v2_soap/?wsdl")
-    sid = c.service.login('soapadmin', 'aslk98swk')
+    sid = c.service.login('username', 'password')
     print "ok."
 
 def updateProdCat(prodsku,websites,categories):
